@@ -23,7 +23,17 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Load dev database
+5. Clone `.env.template` and rename it to `.env`
+
+6. Set environmnet variables in `.env`
+
+7. Launch application in dev mode:
+
+```
+yarn start:dev
+```
+
+8. Load dev database
 
 ```
 http://localhost:3000/api/v2/seed
